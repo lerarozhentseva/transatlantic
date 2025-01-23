@@ -1,0 +1,52 @@
+.hero {
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.hero__container {
+  padding: 100px 20px 0px 20px;
+}
+
+.hero__title {
+  font-family: "Dewi";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  color: #121c46;
+  width: 257px;
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    max-width: 768px;
+  }
+
+  .hero__container {
+  }
+
+  .hero__title {
+    font-size: 56px;
+    hyphens: none;
+    overflow-wrap: unset;
+    width: 435px;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .hero {
+    max-width: 1180px;
+  }
+
+  .hero__container {
+    padding: 132px 58px 0 58px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero {
+    max-width: 1440px;
+  }
+}

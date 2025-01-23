@@ -1,0 +1,156 @@
+.values {
+  background-color: #ffffff;
+}
+
+.values__container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 20px;
+  max-width: 320px;
+}
+
+.values__title,
+.values__descr {
+  font-family: "Dewi";
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  color: #18bbfe;
+}
+
+.values__heading {
+  font-family: "Dewi";
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  color: #121c46;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.values__title {
+  font-size: 30px;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.values__container,
+.values__list,
+.values__cards {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.values__list {
+  width: 280px;
+}
+
+.values__item {
+  display: flex;
+  flex-direction: column;
+  min-width: 280px;
+}
+
+.values__item:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.values__item:last-child p:last-child {
+  margin-bottom: 0px;
+}
+
+.values__item:first-child p:last-child {
+  margin-bottom: 0px;
+}
+
+.values__item:nth-child(2) p:last-child {
+  margin-bottom: 0px;
+}
+
+.values__item:nth-child(3) p:last-child {
+  margin-bottom: 0px;
+}
+
+.values__item:nth-child(4) p {
+  margin-bottom: 0px;
+}
+
+.values__item:nth-child(5) p {
+  margin-bottom: 0px;
+}
+
+.values__heading {
+  font-size: 24px;
+  line-height: 1.18;
+  margin-bottom: 12px;
+}
+
+.values__text,
+.values__dot,
+.values__subdescr {
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #121c46;
+}
+
+.values__text {
+  margin-bottom: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .values__container {
+    padding: 48px 20px;
+    max-width: 768px;
+  }
+
+  .values__title {
+    font-size: 40px;
+    margin-bottom: 32px;
+  }
+
+  .values__right {
+    max-width: 100%;
+  }
+
+  .values__list {
+    width: 100%;
+  }
+
+  .values__item:not(:last-child) {
+    margin-bottom: 32px;
+  }
+
+  .values__text {
+    width: 694px;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .values__container {
+    padding: 48px 58px 0px 58px;
+    max-width: 1180px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .values__right {
+    max-width: 650px;
+  }
+
+  .values__list {
+    width: 650px;
+  }
+
+  .values__text {
+    width: 594px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .values__container {
+    max-width: 1440px;
+  }
+}

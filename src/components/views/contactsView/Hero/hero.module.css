@@ -1,0 +1,125 @@
+.hero {
+  background-color: #ffffff;
+}
+
+.hero__container {
+  padding: 100px 20px 48px 20px;
+  margin: 0 auto;
+  max-width: 320px;
+}
+
+.hero__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.hero__title,
+.hero__heading {
+  font-family: "Dewi";
+  font-weight: 700;
+  color: #121c46;
+  letter-spacing: -0.04em;
+}
+
+.hero__title {
+  margin-bottom: 48px;
+  font-size: 36px;
+  line-height: 1;
+}
+
+.hero__heading {
+  font-size: 30px;
+  line-height: 1;
+  margin-bottom: 24px;
+}
+
+.hero__button__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 280px;
+  margin-bottom: 48px;
+}
+
+.hero__button {
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration-line: underline;
+  color: #18bbfe;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.hero__button:first-child {
+  margin-right: 22px;
+}
+
+.hero__button:last-child {
+  margin-top: 24px;
+}
+
+.hero__bottom div:first-child {
+  margin-bottom: 48px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero__container {
+    max-width: 768px;
+  }
+
+  .hero__title {
+    font-size: 56px;
+  }
+
+  .hero__button__wrapper {
+    width: 274px;
+  }
+
+  .hero__heading {
+    font-size: 40px;
+    margin-bottom: 32px;
+  }
+
+  .hero__button:last-child {
+    margin-top: 32px;
+  }
+
+  .hero__button:first-child {
+    margin-bottom: 12px;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .hero__container {
+    padding: 132px 58px 64px 58px;
+    max-width: 1180px;
+  }
+
+  .hero__title {
+    font-size: 56px;
+  }
+
+  .hero__wrapper {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+
+  .hero__top {
+    display: inline-block;
+    margin-left: 130px;
+  }
+
+  .hero__button__wrapper {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero__container {
+    max-width: 1440px;
+  }
+}

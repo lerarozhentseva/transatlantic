@@ -1,0 +1,236 @@
+/* HEADER BLUE */
+
+.header {
+  background-color: #edf6ff;
+  position: fixed;
+  z-index: 20;
+  width: 100%;
+  transition: transform 0.5s linear;
+  transform: translate(1300ms);
+  -webkit-transform: translate(1300ms);
+  -moz-transform: translate(1300ms);
+  -ms-transform: translate(1300ms);
+  -o-transform: translate(1300ms);
+  -webkit-transition: transform 0.5s linear;
+  -moz-transition: transform 0.5s linear;
+  -ms-transition: transform 0.5s linear;
+  -o-transition: transform 0.5s linear;
+}
+
+.header__container {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  background-color: #edf6ff;
+  padding: 20px 20px 8px 20px;
+}
+
+.header__logo {
+  cursor: pointer;
+  fill: #121c46;
+  display: inline-block;
+  -webkit-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.header__logo:hover {
+  -webkit-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  fill: #18bbfe;
+}
+
+.header__logo--blue {
+  fill: #18bbfe;
+}
+
+.header__logo--blue:hover {
+  fill: #008ac2;
+}
+
+.openBtn__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  width: 42px;
+  height: 41px;
+  background-color: #d4edff;
+  border-radius: 6px;
+  padding: 11px;
+}
+
+.openBtn {
+  padding: 0;
+  width: 42px;
+  height: 41px;
+}
+
+.openBtn__top,
+.openBtn__middle,
+.openBtn__bottom {
+  position: absolute;
+}
+
+.openBtn__top {
+  top: 10px;
+  left: 10px;
+}
+
+.openBtn__middle {
+  top: 19px;
+  left: 10px;
+}
+
+.openBtn__bottom {
+  top: 28px;
+  left: 10px;
+}
+
+.header__tel {
+  display: none;
+}
+
+@media screen and (min-width: 1180px) {
+  .header {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    height: 96px;
+  }
+
+  .header__container {
+    padding: 32px 58px 16px 58px;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+  }
+
+  .header__logo {
+    margin-right: 56px;
+  }
+
+  .openBtn__wrapper {
+    display: none;
+  }
+
+  .header__tel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  .header__tel a {
+    font-family: "Inter Tight";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #121c46;
+    width: 148px;
+    -webkit-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+  }
+
+  .header__tel a:hover {
+    color: #18bbfe;
+    -webkit-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+  }
+
+  .header__tel--blue a {
+    color: #18bbfe;
+  }
+
+  .header__tel--blue a:hover {
+    color: #008ac2;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header__container {
+    max-width: 1440px;
+  }
+}
+
+/* HEADER TRANSPARENT OR CASES */
+
+.header__tel--light a {
+  color: #ffffff;
+}
+
+.header__logo--white {
+  fill: #ffffff;
+}
+
+.header__tel--light a:hover {
+  color: #bce2ff;
+}
+.header__logo--white:hover {
+  fill: #bce2ff;
+}
+
+.header--transparent {
+  background-color: #18bbfe;
+  z-index: 20;
+}
+
+.header__container--transparent {
+  background-color: #18bbfe;
+}
+
+.header--light,
+.header__container--light {
+  background-color: #ffffff;
+}
+
+@media screen and (min-width: 1180px) {
+  .header__container--transparent {
+    padding: 32px 58px 16px 58px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header__container--transparent,
+  .header__container {
+    padding: 32px 58px 16px 58px;
+  }
+}
+
+.hideHeader {
+  transform: translateY(-104px);
+  -webkit-transform: translateY(-104px);
+  -moz-transform: translateY(-104px);
+  -ms-transform: translateY(-104px);
+  -o-transform: translateY(-104px);
+}

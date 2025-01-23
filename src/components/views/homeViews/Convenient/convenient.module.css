@@ -1,0 +1,256 @@
+.convenient {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: linear-gradient(180deg, #222222 0%, #1a1a1a 100%);
+
+  background-color: #222222;
+}
+
+.convenient__container {
+  margin: 0 auto;
+  max-width: 320px;
+  padding: 48px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.convenient__info--top {
+  margin-bottom: 20px;
+}
+
+.convenient__title {
+  display: inline-block;
+  width: 257px;
+  margin-bottom: 24px;
+  font-family: "Dewi";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1;
+  text-align: left;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
+
+.wrapper__descr {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.convenient__descr {
+  display: inline-block;
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  color: #ffffff;
+}
+
+.convenient__descr {
+  width: 245px;
+}
+
+.convenient__wrapper {
+  position: relative;
+  margin-bottom: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -651px;
+}
+
+.convenient__image {
+  background-image: url("../../../../assets/images/mobile/truck.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 477px;
+  height: 134px;
+  display: inline-block;
+  margin-left: 455px;
+}
+
+.convenient__animation {
+  width: 792px;
+  height: 193px;
+  margin: -80px 0 -30px 370px;
+  display: none;
+}
+
+.convenient__button a {
+  border: none;
+  display: inline-block;
+  transition-duration: 500ms;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 10px 20px 11px;
+  border-radius: 6px;
+  background-color: #18bbfe;
+  font-family: "Inter Tight";
+  font-weight: 500;
+  color: #ffffff;
+  cursor: pointer;
+  width: 280px;
+  text-align: center;
+}
+
+.convenient__button a:hover {
+  transition-duration: 500ms;
+  background-color: #d5edff;
+  color: #18bbfe;
+}
+
+@media screen and (min-width: 368px) {
+  .convenient__title {
+    width: 308px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .convenient__container {
+    margin: 0 auto;
+
+    max-width: 768px;
+    padding: 48px 20px 100px 20px;
+  }
+
+  .convenient__info--top {
+    margin-bottom: 40px;
+  }
+
+  .convenient__title {
+    font-size: 56px;
+    width: 635px;
+    margin-bottom: 40px;
+  }
+
+  .convenient__descr {
+    width: 445px;
+  }
+
+  .convenient__wrapper {
+    margin-bottom: 40px;
+    margin-left: -377px;
+  }
+
+  .convenient__animation {
+    width: 1040px;
+    height: 519px;
+    margin: -140px 0 -70px 178px;
+  }
+
+  .convenient__image {
+    background-image: url("../../../../assets/images/tablet/truck.png");
+    height: 293px;
+    width: 1040px;
+    margin-left: 68px;
+  }
+
+  .convenient__button a {
+    width: 183px;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .convenient__container {
+    padding: 78px 58px 100px;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .convenient__wrapper {
+    height: 326px;
+    margin: 0 auto 73px auto;
+  }
+
+  .convenient__title {
+    margin-bottom: 0;
+    width: 763px;
+  }
+
+  .convenient__info--top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+
+  .convenient__info--bottom {
+    display: flex;
+    flex-direction: row;
+    z-index: 15;
+  }
+
+  .convenient__button a {
+    width: 172px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .convenient__descr {
+    margin-top: 15px;
+    margin-bottom: 67px;
+    font-family: "Dewi";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.18;
+    width: 448px;
+    margin-bottom: 0px;
+  }
+
+  .wrapper__descr {
+    width: 448px;
+  }
+
+  .convenient__animation {
+    width: 1100px;
+    height: 610px;
+    margin: 0 auto 120px auto;
+    display: block;
+  }
+
+  .convenient__image {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .convenient__container {
+    margin: 0 auto;
+    width: 1440px;
+  }
+
+  .convenient__animation {
+    width: 1250px;
+    height: 610px;
+    margin: 0 auto 147px auto;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .convenient__wrapper {
+    height: 526px;
+  }
+
+  .convenient__animation {
+    width: 300%;
+    height: 750px;
+  }
+
+  .convenient__title {
+    font-size: 68px;
+  }
+
+  .convenient__descr {
+    font-size: 20px;
+  }
+}

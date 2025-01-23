@@ -1,0 +1,81 @@
+/* NAVBAR DARK */
+
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.nav__item:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.nav__link {
+  font-family: "Dewi";
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: -0.04em;
+  color: #121c46;
+  display: inline-block;
+}
+
+.nav__link--blue {
+  color: #121c46;
+}
+
+.nav__link:hover,
+.nav__link--blue:hover {
+  color: #18bbfe;
+}
+
+@media screen and (min-width: 1180px) {
+  .nav__list {
+    flex-direction: row;
+  }
+
+  .nav__link {
+    font-family: "Inter Tight";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #121c46;
+    text-decoration: underline;
+    -moz-text-decoration-line: underline;
+    transition-duration: 0.5s;
+  }
+
+  .nav__link:hover {
+    color: #18bbfe;
+  }
+
+  .nav__item:not(:last-child) {
+    margin-bottom: 0px;
+    margin-right: 40px;
+  }
+
+  .nav__link--light {
+    transition-duration: 0.5s;
+    color: #ffffff;
+  }
+
+  .active--light,
+  .nav__link--light:hover {
+    color: #bce2ff;
+    transition-duration: 0.5s;
+  }
+
+  .nav__link--blue {
+    text-decoration-line: underline;
+    color: #18bbfe;
+  }
+
+  .active--blue {
+    color: #18bbfe;
+  }
+
+  .nav__link--blue:hover {
+    color: #008ac2;
+  }
+}
+
+/* NAVBAR BLUE */

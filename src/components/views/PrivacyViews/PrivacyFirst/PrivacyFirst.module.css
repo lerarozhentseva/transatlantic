@@ -1,0 +1,95 @@
+.firstRules {
+  margin: 0 auto;
+  max-width: 320px;
+}
+
+.firstRules__containers {
+  padding: 48px 20px 0px 20px;
+}
+
+.firstRules__title {
+  font-family: "Dewi";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  color: #121c46;
+  margin-bottom: 24px;
+  width: 280px;
+  display: flex;
+}
+
+.firstRules__number {
+  display: inline-block;
+  width: 29px;
+  margin-right: 8px;
+}
+
+.firstRules__item {
+  display: flex;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #121c46;
+}
+
+.firstRules__item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.firstRules__text {
+  width: 237px;
+}
+
+.firstRules__textNumber {
+  display: inline-block;
+  width: 43px;
+}
+
+@media screen and (min-width: 768px) {
+  .firstRules {
+    max-width: 768px;
+  }
+
+  .firstRules__containers {
+    padding: 48px 20px 0px 20px;
+  }
+
+  .firstRules__list {
+    margin-left: 48px;
+  }
+
+  .firstRules__title {
+    font-size: 40px;
+    margin-bottom: 32px;
+  }
+
+  .firstRules__text {
+    width: 637px;
+  }
+
+  .firstRules__number {
+    width: 40px;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .firstRules {
+    max-width: 1180px;
+  }
+
+  .firstRules__containers {
+    padding: 48px 58px 0px 58px;
+  }
+
+  .firstRules__text {
+    width: 673px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .firstRules {
+    max-width: 1440px;
+  }
+}

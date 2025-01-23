@@ -1,0 +1,312 @@
+.cases {
+  z-index: 7;
+  position: relative;
+  background-color: #18bbfe;
+}
+
+.cases__container {
+  padding: 48px 20px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 320px;
+}
+
+.cases__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.casesTop {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 24px;
+  align-self: flex-start;
+}
+
+.cases__subTitle {
+  display: inline-block;
+  font-family: "Inter Tight";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  color: #ffffff;
+  width: 234px;
+}
+
+.cases__title {
+  font-family: "Dewi";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+  margin-bottom: 16px;
+  margin-right: auto;
+}
+
+.cases__list {
+  margin-bottom: 20px;
+}
+
+.cases__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  background-color: #00a3e6;
+  border-radius: 16px;
+  width: 280px;
+  height: 172px;
+  padding: 0 0 19px 23px;
+}
+
+.cases__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.cases__heading {
+  font-family: "Dewi";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.18;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+  width: 192px;
+  display: inline-block;
+}
+
+.cases__item:nth-child(2) .cases__heading {
+  width: 146px;
+}
+
+.cases__item:nth-child(4) .cases__heading {
+  width: 276px;
+}
+
+.cases__info {
+  display: flex;
+  position: relative;
+  z-index: 10;
+}
+
+.cases__arrow {
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 3px;
+}
+
+.cases__image {
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  border-radius: 16px;
+  top: 0;
+  right: 0;
+  height: 172px;
+  transition-duration: 200ms;
+}
+
+/* HOVER ON CARD */
+
+.cases__image--gray {
+  display: none;
+}
+
+.cases__item:hover {
+  background-color: #edf6ff;
+  transition-duration: 200ms;
+}
+
+.cases__item:hover .cases__heading {
+  color: #121c46;
+}
+
+.cases__item:hover .cases__image--gray {
+  display: block;
+}
+
+.cases__item:hover .cases__image--blue {
+  display: none;
+}
+
+.cases__button {
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration-line: underline;
+  color: #ffffff;
+}
+
+.cases__imageBg {
+  display: none;
+}
+
+.animation_ship {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .cases {
+    z-index: 9;
+  }
+
+  .cases__container {
+    margin: 0 auto;
+    max-width: 788px;
+    padding: 48px 20px 58px 20px;
+  }
+
+  .casesTop {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .cases__title {
+    font-size: 56px;
+    margin-bottom: 32px;
+  }
+
+  .cases__subTitle {
+    width: 675px;
+  }
+
+  .cases__list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+
+  .cases__button {
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+
+  .cases__item {
+    width: 354px;
+    height: 248px;
+    padding: 0 0 17px 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .cases__item:nth-child(2),
+  .cases__item:nth-child(4) {
+    margin-right: 0px;
+  }
+
+  .cases__item:nth-child(3),
+  .cases__item:nth-child(4) {
+    margin-bottom: 0px;
+  }
+
+  .cases__heading {
+    font-size: 24px;
+    width: 271px;
+  }
+
+  .cases__image {
+    height: 248px;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .cases {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cases__subTitle {
+    width: 738px;
+  }
+
+  .cases__container {
+    padding: 48px 58px;
+    width: 1180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: inherit;
+    position: relative;
+  }
+
+  .cases__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 900px;
+  }
+
+  .cases__title {
+    margin-bottom: 32px;
+  }
+
+  .cases__list {
+    max-width: 100%;
+    margin-bottom: 22px;
+    align-items: flex-start;
+  }
+
+  .cases__item {
+    width: 428px;
+  }
+
+  .cases__button {
+    margin: 0;
+  }
+
+  .cases__imageBg {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .cases {
+    z-index: 7;
+  }
+
+  .cases__container {
+    max-width: inherit;
+    width: 1440px;
+  }
+
+  .animation_ship {
+    display: block;
+  }
+
+  .cases__imageBgWarpper {
+    width: 165px;
+    height: 674px;
+    position: absolute;
+    top: 88px;
+    right: 196px;
+  }
+
+  .cases__imageBg {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .animation_ship {
+    position: absolute;
+    right: 256px;
+    top: -100%;
+    transition: all 1.5s ease-out;
+    position: absolute;
+    width: 200px;
+    height: 100%;
+  }
+
+  .ship_visible {
+    top: 0;
+  }
+}

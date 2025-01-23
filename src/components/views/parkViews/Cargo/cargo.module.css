@@ -1,0 +1,105 @@
+.cargo {
+  background-color: #ffffff;
+}
+
+.cargo__container {
+  margin: 0 auto;
+  padding: 48px 20px 48px 20px;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cargo__title {
+  font-family: "Dewi";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  color: #121c46;
+  margin-bottom: 24px;
+  width: 260px;
+}
+
+.cargo__list {
+  margin-left: 19px;
+}
+
+.cargo__item {
+  padding: 8px 0px;
+}
+
+.cargo__item:last-child {
+  padding: 8px 0px 0px 0px;
+}
+
+.cargo__text {
+  position: relative;
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #121c46;
+}
+
+.cargo__text::before {
+  content: "";
+  display: inline-block;
+  background-color: #18bbfe;
+  position: absolute;
+  left: -19px;
+  top: 6px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .cargo__container {
+    padding: 48px 20px;
+    max-width: 768px;
+  }
+
+  .cargo__title {
+    font-size: 40px;
+    margin-bottom: 32px;
+    width: auto;
+  }
+
+  .cargo__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 726px;
+    margin-left: 19px;
+  }
+
+  .cargo__item {
+    width: 353px;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .cargo__list {
+    width: 766px;
+  }
+
+  .cargo__item {
+    width: 373px;
+  }
+
+  .cargo__container {
+    max-width: 1180px;
+    padding: 48px 58px 32px 58px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .cargo__container {
+    max-width: 1440px;
+  }
+}

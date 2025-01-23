@@ -1,0 +1,138 @@
+.process {
+  background-color: #ffffff;
+}
+
+.process__container {
+  display: flex;
+  flex-direction: column;
+  padding: 48px 20px 48px 20px;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.process__title,
+.process__heading {
+  font-family: "Dewi";
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+.process__title {
+  font-size: 30px;
+  line-height: 1;
+  margin-bottom: 24px;
+  color: #18bbfe;
+  width: 293px;
+}
+
+.process__heading,
+.process__descr,
+.process__text {
+  color: #121c46;
+}
+
+.process__descr {
+  width: 180px;
+  margin-bottom: 24px;
+}
+
+.process__text {
+  width: 234px;
+}
+
+.process__container,
+.process__list,
+.process__cards {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.process__cards div:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.process__item {
+  display: flex;
+  min-width: 280px;
+}
+
+.process__item:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.process__heading {
+  font-size: 24px;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+
+.process__descr,
+.process__text {
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.process__dot::before {
+  content: "";
+  display: inline-block;
+  background-color: #18bbfe;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .process__container {
+    padding: 48px 20px 48px 20px;
+    max-width: 768px;
+  }
+
+  .process__title {
+    font-size: 40px;
+    margin-bottom: 32px;
+  }
+
+  .process__descr {
+    margin-bottom: 32px;
+    width: auto;
+  }
+
+  .process__text {
+    width: 659px;
+  }
+
+  .process__cards div:not(:last-child) {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .process__container {
+    padding: 48px 58px 56px 58px;
+    max-width: 1180px;
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  .process__left {
+    width: 445px;
+  }
+
+  .process__right {
+    width: 650px;
+  }
+
+  .process__text {
+    width: 585px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .process__container {
+    max-width: 1440px;
+  }
+}

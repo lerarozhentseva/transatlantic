@@ -1,0 +1,91 @@
+.office__title {
+  font-family: "Dewi";
+  font-weight: 700;
+  color: #121c46;
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  margin-bottom: 24px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+}
+
+.office__list {
+  margin-bottom: 24px;
+  max-width: 280px;
+}
+
+.office__item {
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #121c46;
+}
+
+.office__item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.office__info {
+  color: #121c46;
+}
+
+.office__img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 344px;
+  border-radius: 16px;
+}
+
+.office__img--msk {
+  background-image: url("../../../../assets/images/contacts/moscow-mobile.png");
+}
+
+.office__img--ekb {
+  background-image: url("../../../../assets/images/contacts/ekaterinburg-mobile.png");
+}
+
+@media screen and (min-width: 768px) {
+  .office__title {
+    font-size: 40px;
+    flex-direction: row;
+    width: auto;
+    margin-bottom: 32px;
+  }
+
+  .office__list {
+    max-width: 768px;
+    margin-bottom: 32px;
+  }
+
+  .office__img {
+    width: 729px;
+  }
+  .office__img--msk {
+    background-image: url("../../../../assets/images/contacts/moscow-laptop.png");
+  }
+
+  .office__img--ekb {
+    background-image: url("../../../../assets/images/contacts/ekaterinburg-laptop.png");
+  }
+
+  .office__title span {
+    margin-left: 8px;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .office__img {
+    width: 764px;
+  }
+  .office__img--msk {
+    background-image: url("../../../../assets/images/contacts/moscow-desktop.png");
+  }
+
+  .office__img--ekb {
+    background-image: url("../../../../assets/images/contacts/ekaterinburg-desktop.png");
+  }
+}

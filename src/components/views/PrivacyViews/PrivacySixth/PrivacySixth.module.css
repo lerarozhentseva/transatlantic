@@ -1,0 +1,136 @@
+.sixthRules {
+  margin: 0 auto;
+  max-width: 320px;
+}
+
+.sixthRules__containers {
+  padding: 48px 20px 0px 20px;
+}
+
+.sixthRules__title {
+  font-family: "Dewi";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  color: #121c46;
+  margin-bottom: 24px;
+  width: 280px;
+  display: flex;
+}
+
+.sixthRules__number {
+  display: inline-block;
+  width: 29px;
+  margin-right: 8px;
+}
+
+.sixthSubParagraphs__item,
+.sixthRules__item,
+.sixthSubRules__item {
+  display: flex;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #121c46;
+}
+
+.sixthSubParagraphs__item,
+.sixthSubRules__item:not(:last-child),
+.sixthRules__item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.sixthRules__text {
+  width: 237px;
+}
+
+.sixthSubRules__text {
+  width: 232px;
+}
+
+.sixthSubParagraphs__textNumber {
+  width: 49px;
+  margin-right: 8px;
+}
+
+.sixthSubRules__textNumber {
+  display: inline-block;
+  width: 48px;
+}
+
+.sixthRules__textNumber {
+  display: inline-block;
+  width: 43px;
+}
+
+@media screen and (min-width: 768px) {
+  .sixthRules {
+    max-width: 768px;
+  }
+
+  .sixthRules__containers {
+    padding: 48px 20px 0px 20px;
+  }
+
+  .sixthSubParagraphs__list,
+  .sixthRules__list {
+    margin-left: 48px;
+  }
+
+  .sixthSubRules__list {
+    margin-left: 42px;
+  }
+
+  .sixthRules__title {
+    font-size: 40px;
+    margin-bottom: 32px;
+    width: 720px;
+  }
+
+  .sixthRules__text {
+    width: 637px;
+  }
+
+  .sixthSubRules__text {
+    width: 626px;
+  }
+
+  .sixthSubParagraphs__text {
+    width: 529px;
+  }
+
+  .sixthRules__number {
+    width: 48px;
+  }
+
+  .sixthSubRules__textNumber {
+    width: 40px;
+    margin-right: 8px;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .sixthRules {
+    max-width: 1180px;
+  }
+
+  .sixthRules__containers {
+    padding: 48px 58px 0px 58px;
+  }
+
+  .sixthRules__text {
+    width: 673px;
+  }
+
+  .sixthSubParagraphs__text {
+    width: 565px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .sixthRules {
+    max-width: 1440px;
+  }
+}

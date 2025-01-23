@@ -1,0 +1,81 @@
+.hero {
+  background-color: #18bbfe;
+  height: 490px;
+  position: relative;
+}
+
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 278px 20px 32px 20px;
+  justify-content: flex-end;
+  height: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.hero__title {
+  font-family: "Dewi";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+  position: relative;
+  z-index: 5;
+  width: 293px;
+}
+
+.hero__img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 267px;
+  height: 281px;
+  background-color: #18bbfe;
+}
+
+@media screen and (min-width: 768px) {
+  .hero__container {
+    padding: 266px 20px 56px 20px;
+    max-width: 768px;
+  }
+
+  .hero__title {
+    font-size: 56px;
+    align-self: flex-start;
+  }
+
+  .hero__img {
+    width: 461px;
+    height: 490px;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .hero__container {
+    padding: 232px 58px 56px 58px;
+    max-width: 1180px;
+  }
+
+  .hero__title {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero {
+    height: 400px;
+  }
+
+  .hero__container {
+    padding: 232px 58px 56px 58px;
+    max-width: 1440px;
+  }
+
+  .hero__img {
+    width: 459px;
+    height: 400px;
+  }
+}

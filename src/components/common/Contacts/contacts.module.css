@@ -1,0 +1,93 @@
+/* CONTACTS DARK */
+
+.address {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts__address {
+  font-family: "Dewi";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.18;
+  letter-spacing: -0.04em;
+  color: #121c46;
+  margin-bottom: 15px;
+}
+
+.contacts__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.contacts__item:not(:last-child) {
+  margin-bottom: 7px;
+}
+
+.contacts__mail,
+.contacts__tel {
+  font-family: "Inter Tight";
+  font-size: 12px;
+  line-height: 1.5;
+  color: #121c46;
+}
+
+.contacts__mail {
+  font-weight: 500;
+  text-decoration-line: underline;
+}
+
+.contacts__tel {
+  font-weight: 500;
+}
+
+.contacts__address--footer,
+.contacts__mail--footer,
+.contacts__tel--footer {
+  color: #ffffff;
+}
+
+.contacts__mail--footer:hover,
+.contacts__tel--footer:hover {
+  color: #18bbfe;
+}
+
+@media screen and (min-width: 768px) {
+  .contacts__address {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+
+  .contacts__item:not(:last-child) {
+    margin-bottom: 8px;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .address {
+    flex-direction: row;
+  }
+
+  .contacts__address {
+    margin-right: 34px;
+    margin-top: -12px;
+    font-size: 24px;
+  }
+}
+
+/* CONTACTS BLUE */
+
+.contacts__address--dark,
+.contacts__tel--dark {
+  color: #121c46;
+}
+
+.contacts__mail--blue {
+  text-decoration-line: underline;
+  color: #18bbfe;
+}
+
+.contacts__mail--blue:hover {
+  color: #008ac2;
+}

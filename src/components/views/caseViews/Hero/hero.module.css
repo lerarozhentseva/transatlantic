@@ -1,0 +1,85 @@
+.hero {
+  background-color: #18bbfe;
+  position: relative;
+}
+
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 278px 20px 32px 20px;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.hero__titleWrapper {
+  width: 280px;
+}
+
+.hero__title {
+  font-family: "Dewi";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+  position: relative;
+  z-index: 5;
+  width: 186px;
+}
+
+.hero__img {
+  position: absolute;
+  bottom: 0;
+  right: -223px;
+  height: 490px;
+  background-color: #18bbfe;
+}
+
+@media screen and (min-width: 768px) {
+  .hero__container {
+    padding: 266px 20px 56px 20px;
+    max-width: 768px;
+  }
+
+  .hero__title {
+    font-size: 56px;
+    min-width: 489px;
+    align-self: flex-start;
+  }
+
+  .hero__titleWrapper {
+    width: 748px;
+  }
+
+  .hero__img {
+    right: 0px;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .hero__container {
+    height: 400px;
+    padding: 232px 58px 56px 58px;
+    max-width: 1180px;
+  }
+
+  .hero__titleWrapper {
+    max-width: 1180px;
+    margin-right: auto;
+  }
+
+  .hero__title {
+    width: 856px;
+  }
+
+  .hero__img {
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero__container {
+    max-width: 1440px;
+  }
+}

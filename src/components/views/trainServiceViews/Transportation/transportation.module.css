@@ -1,0 +1,156 @@
+.transportation {
+  background-color: #edf6ff;
+}
+
+.transportation__container {
+  display: flex;
+  flex-direction: column;
+  padding: 48px 20px;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.transportation__title,
+.transportation__heading,
+.transportation__descr {
+  font-family: "Dewi";
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+.transportation__title {
+  font-size: 30px;
+  line-height: 1;
+  margin-bottom: 24px;
+  color: #18bbfe;
+  width: 293px;
+}
+
+.transportation__heading,
+.transportation__descr {
+  color: #121c46;
+}
+
+.transportation__container,
+.transportation__list,
+.transportation__cards {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.transportation__cards div:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.transportation__item {
+  display: flex;
+  min-width: 280px;
+}
+
+.transportation__item:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.transportation__heading {
+  font-size: 24px;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+
+.transportation__descr,
+.transportation__text {
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.transportation__descr,
+.transportation__text {
+  color: #121c46;
+}
+
+.transportation__descr {
+  margin-bottom: 24px;
+}
+
+.transportation__dot::before {
+  content: "";
+  display: inline-block;
+  background-color: #18bbfe;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .transportation__container {
+    padding: 48px 20px;
+    max-width: 768px;
+  }
+
+  .transportation__list {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-gap: 10px;
+  }
+
+  .transportation__cards div:not(:last-child) {
+    margin-bottom: 32px;
+  }
+
+  .transportation__title {
+    font-size: 40px;
+    width: auto;
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .transportation__container {
+    padding: 48px 58px;
+    max-width: 1180px;
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  .transportation__right {
+    width: 630px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .transportation__item:not(:last-child) {
+    margin-bottom: 8px;
+  }
+
+  .transportation__left {
+    width: 445px;
+  }
+
+  .transportation__card {
+    width: 648px;
+  }
+
+  .transportation__list {
+    width: 648px;
+    grid-template-columns: repeat(3, 200px);
+  }
+
+  .transportation__item {
+    width: 181px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .transportation__container {
+    max-width: 1440px;
+  }
+
+  .transportation__right {
+    width: 650px;
+  }
+}

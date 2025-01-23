@@ -1,0 +1,64 @@
+.buttonLink {
+  border: none;
+  display: inline-block;
+  transition-duration: 500ms;
+}
+
+.buttonLink__blue {
+  font-size: 14px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  background-color: #18bbfe;
+  font-family: "Inter Tight";
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.buttonLink__blue:hover,
+.buttonLink__blue-big:hover {
+  transition-duration: 500ms;
+  background-color: #d5edff;
+  color: #18bbfe;
+}
+
+.buttonLink__blue-big {
+  font-size: 12px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  background-color: #18bbfe;
+  font-family: "Inter Tight";
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.buttonLink__gray {
+  padding: 6px 12px 8px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 12px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.buttonLink__gray:hover {
+  transition-duration: 500ms;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.buttonLink__link {
+  font-family: "Inter Tight";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.5;
+  text-decoration-line: underline;
+  color: #18bbfe;
+}
+
+@media screen and (min-width: 1180px) {
+  .buttonLink--light {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 6px 12px 7px 12px;
+  }
+}

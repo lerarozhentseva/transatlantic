@@ -1,0 +1,186 @@
+.carWhiteBgFirst {
+  width: 100%;
+  background-color: #edf6ff;
+  height: 351px;
+}
+
+.carWhiteBgFirstContainer {
+  margin: 0 auto;
+  max-width: 320px;
+  padding: 48px 20px 48px 20px;
+}
+
+.carWhiteBgFirstTop {
+  display: flex;
+  flex-direction: column;
+}
+
+.carWhiteBgFirstTopTitle {
+  font-family: "Dewi";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  width: 280px;
+  color: #121c46;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.carWhiteBgFirstTopSubTitle {
+  display: inline-block;
+  font-family: "Inter Tight";
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 32px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #121c46;
+}
+
+.carWhiteBgFirstImagesWrapper {
+  width: 280px;
+  height: 150px;
+}
+
+.carWhiteBgFirstImages {
+  width: 380px;
+  height: 250px;
+  margin-top: -53px;
+  margin-left: -60px;
+}
+
+.visible {
+  opacity: 1 !important;
+}
+
+@media screen and (min-width: 768px) {
+  .carWhiteBgFirst {
+    height: 599px;
+  }
+
+  .carWhiteBgFirstContainer {
+    max-width: 780px;
+    padding: 48px 20px 16px 20px;
+    height: 100%;
+  }
+
+  .carWhiteBgFirstTopTitle {
+    font-size: 56px;
+    width: 720px;
+  }
+
+  .carWhiteBgFirstTopSubTitle {
+    width: 333px;
+    margin-bottom: 0px;
+  }
+
+  .carWhiteBgFirstImagesWrapper {
+    width: 644px;
+    height: 323px;
+  }
+
+  .carWhiteBgFirstImages {
+    width: 1144px;
+    height: 523px;
+    margin: -134px 0 0 -280px;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .carWhiteBgFirst {
+    height: 800px;
+  }
+
+  .carWhiteBgFirstContainer {
+    max-width: 100%;
+    height: 100%;
+    padding: 78px 58px 115px 58px;
+  }
+
+  .carWhiteBgFirstTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .carWhiteBgFirstTopTitle,
+  .carWhiteBgFirstTopSubTitle {
+    margin-bottom: 103px;
+  }
+
+  .carWhiteBgFirstTextWrapper {
+    width: 448px;
+  }
+
+  .carWhiteBgFirstTopSubTitle {
+    font-family: "Dewi";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16;
+    width: 448px;
+    margin-top: 12px;
+  }
+
+  .carWhiteBgFirstImagesWrapper {
+    width: 739px;
+    height: 371px;
+    margin: 0px auto 0px auto;
+  }
+
+  .carWhiteBgFirstImages {
+    width: 1339px;
+    height: 871px;
+    margin: -237px 0 0 -320px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .carWhiteBgFirstContainer {
+    margin: 0 auto;
+    max-width: 1440px;
+  }
+
+  .carWhiteBgFirstImages {
+    width: 1539px;
+    margin-left: -385px;
+  }
+
+  .carWhiteBgFirstTopTitle {
+    margin-bottom: 0px;
+    font-size: 56px;
+  }
+
+  .carWhiteBgFirstTopSubTitle {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .carWhiteBgFirst {
+    height: 1000px;
+  }
+
+  .carWhiteBgFirstImagesWrapper {
+    height: 571px;
+  }
+
+  .carWhiteBgFirstImages {
+    width: 300%;
+    height: 1000px;
+    margin-left: -750px;
+  }
+
+  .carWhiteBgFirstTopTitle {
+    font-size: 56px;
+  }
+
+  .carWhiteBgFirstTopSubTitle {
+    font-size: 20px;
+  }
+
+  .carWhiteBgFirstBottomTitle {
+    font-size: 58px;
+  }
+}

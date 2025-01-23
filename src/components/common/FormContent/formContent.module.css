@@ -1,0 +1,33 @@
+.form-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 23px 23px 27px 23px;
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+
+.form-content__svg {
+  margin-bottom: 9px;
+}
+
+.form-content__title {
+  font-family: "Dewi";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  color: #121c46;
+  margin-bottom: 11px;
+}
+
+.form-content__text {
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  color: #121c46;
+  width: 238px;
+}

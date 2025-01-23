@@ -1,0 +1,60 @@
+.routes {
+  background-color: #edf6ff;
+}
+
+.routes__container {
+  display: flex;
+  flex-direction: column;
+  padding: 48px 20px;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.routes__title {
+  font-family: "Dewi";
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  font-size: 30px;
+  line-height: 1;
+  color: #18bbfe;
+  width: 293px;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .routes__container {
+    padding: 48px 20px;
+    max-width: 768px;
+  }
+
+  .routes__title {
+    font-size: 40px;
+    width: auto;
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .routes__container {
+    padding: 48px 25px;
+    max-width: 1180px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+  }
+
+  .routes__left {
+    width: 445px;
+  }
+
+  .routes__right {
+    width: 650px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .routes__container {
+    padding: 48px 58px;
+    max-width: 1440px;
+  }
+}

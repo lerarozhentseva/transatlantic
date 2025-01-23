@@ -1,0 +1,48 @@
+.button {
+  border: none;
+  display: inline-block;
+}
+
+.button__blue {
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.2;
+  color: #ffffff;
+  padding: 10px 20px 10px;
+  width: 280px;
+  background-color: #18bbfe;
+  border-radius: 6px;
+  transition-duration: 500ms;
+}
+
+.button__blue:hover {
+  transition-duration: 500ms;
+  background-color: #d5edff;
+  color: #18bbfe;
+}
+
+.button__case {
+  font-family: "Dewi";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  color: #121c46;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+  .button__blue {
+    width: 167px;
+    padding: 10px 30px;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .button__blue {
+    width: 204px;
+    padding: 10px 30px;
+  }
+}

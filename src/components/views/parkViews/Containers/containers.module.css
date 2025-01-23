@@ -1,0 +1,271 @@
+.containers {
+  background-color: #ffffff;
+}
+
+.containers__container {
+  margin: 0 auto;
+  padding: 48px 20px 0px 20px;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+
+.containers__title {
+  margin-bottom: 24px;
+}
+
+.containers__title,
+.containers__heading {
+  font-family: "Dewi";
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  color: #121c46;
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+.containers__heading {
+  font-size: 22px;
+  line-height: 1.18;
+  margin-bottom: 8px;
+}
+
+.common__item {
+  margin-bottom: 43px;
+}
+
+.containers__wrapper {
+  width: 280px;
+  height: 165px;
+  margin-bottom: 12px;
+}
+
+.containers__img {
+  width: 100%;
+  height: 100%;
+}
+
+.tanks__wrapper {
+  margin-bottom: 16px;
+  width: 280px;
+  height: 165px;
+}
+
+.tanks__img {
+  width: 100%;
+  height: 100%;
+}
+
+.containers__descr {
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #121c46;
+  margin-bottom: 12px;
+}
+
+.containers__list {
+  display: flex;
+  flex-direction: column;
+  margin-right: calc(7px * -1);
+}
+
+.containers__item {
+  display: flex;
+  align-items: center;
+  width: 142px;
+  margin-right: 7px;
+}
+
+.containers__item {
+  margin-bottom: 12px;
+}
+
+.containers__svg {
+  margin-right: 6px;
+}
+
+.containers__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.containers__subheading {
+  margin-bottom: 4px;
+}
+
+.containers__subheading,
+.parameter__bold {
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.2;
+  color: #a2a2a2;
+}
+
+.parameter__bold {
+  margin-right: 1px;
+  margin-left: 1px;
+  color: #121c46;
+}
+
+.containers__value,
+.containers__parameter {
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #121c46;
+}
+
+.parameter__wrapper {
+  display: flex;
+}
+
+.containers__parameter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container__btn {
+  border: none;
+  display: inline-block;
+  transition-duration: 500ms;
+  border-radius: 6px;
+  background-color: #18bbfe;
+  font-family: "Inter Tight";
+  font-weight: 500;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 10px 92px 11px;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.container__btn:hover {
+  transition-duration: 500ms;
+  background-color: #d5edff;
+  color: #18bbfe;
+}
+
+@media screen and (min-width: 768px) {
+  .containers__container {
+    padding: 48px 20px 0px 20px;
+    max-width: 768px;
+  }
+
+  .containers__descr {
+    font-size: 16px;
+    width: 340px;
+  }
+
+  .containers__title {
+    font-size: 40px;
+    margin-bottom: 32px;
+  }
+
+  .containers__subheading {
+    font-size: 12px;
+  }
+
+  .parameter__bold {
+    font-size: 14px;
+  }
+
+  .containers__common {
+    max-width: 354px;
+  }
+
+  .containers__list {
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 354px;
+  }
+
+  .containers__item {
+    width: 167px;
+    margin-bottom: 16px;
+  }
+
+  .tanks__wrapper {
+    width: 354px;
+    height: 221px;
+  }
+
+  .containers__wrapper {
+    width: 354px;
+    height: 222px;
+    margin-bottom: 16px;
+  }
+
+  .containers__img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .containers__heading {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+  }
+
+  .common__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: calc(20px * -1);
+    margin-bottom: 48px;
+  }
+
+  .common__item {
+    margin-bottom: 0;
+  }
+
+  .common__item:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  .container__btn {
+    padding: 10px 20px 11px 20px;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .containers__container {
+    max-width: 1180px;
+    padding: 48px 56px 0px 56px;
+  }
+
+  .containers__wrapper {
+    width: 372px;
+    height: 222px;
+  }
+
+  .tanks__wrapper {
+    width: 372px;
+    height: 222px;
+  }
+
+  .containers__img,
+  .tanks__img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .containers__common {
+    max-width: 372px;
+  }
+
+  .common__list {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .containers__container {
+    max-width: 1440px;
+  }
+}

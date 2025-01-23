@@ -1,0 +1,177 @@
+.hero {
+  background-color: #ffffff;
+}
+
+.hero__container {
+  margin: 0 auto;
+  padding: 100px 20px 0px 20px;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hero__heading,
+.hero__title {
+  font-family: "Dewi";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  color: #121c46;
+}
+
+.hero__title {
+  width: 180px;
+  margin-bottom: 48px;
+}
+
+.hero__heading {
+  font-size: 22px;
+  line-height: 1.18;
+  width: 130px;
+}
+
+.hero__bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 20px;
+  width: 280px;
+  height: 337px;
+  background-image: url(../../../../assets/images/park/background/bg-mobile.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 24px;
+  border-radius: 16px;
+}
+
+.hero__heading {
+  margin-bottom: 12px;
+}
+
+.hero__descr {
+  margin-bottom: 24px;
+}
+
+.hero__descr,
+.hero__text {
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #121c46;
+}
+
+.hero__btn {
+  border: none;
+  display: inline-block;
+  transition-duration: 500ms;
+  font-size: 16px;
+  line-height: 1.5;
+  border-radius: 6px;
+  background-color: #18bbfe;
+  font-family: "Inter Tight";
+  font-weight: 500;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 10px 28px 11px;
+  text-align: center;
+}
+
+.hero__btn:hover {
+  transition-duration: 500ms;
+  background-color: #d5edff;
+  color: #18bbfe;
+}
+
+.hero__text {
+  max-width: 267px;
+}
+
+.hero__right {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .hero__container {
+    max-width: 768px;
+    padding: 100px 20px 0px 20px;
+  }
+
+  .hero__bg {
+    background-image: url(../../../../assets/images/park/background/bg-tablet.png);
+    width: 727px;
+    height: 286px;
+    margin-bottom: 32px;
+    padding: 60px 37px;
+  }
+
+  .hero__title {
+    font-size: 56px;
+    width: auto;
+  }
+
+  .hero__heading {
+    width: 434px;
+    font-size: 24px;
+    line-height: 1.16;
+  }
+
+  .hero__descr {
+    width: 388px;
+    margin-bottom: 32px;
+  }
+
+  .hero__btn {
+    padding: 10px 20px 11px;
+    width: 223px;
+  }
+
+  .hero__text {
+    max-width: 650px;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .hero__container {
+    padding: 134px 58px 0px;
+    max-width: 1180px;
+  }
+
+  .hero__heading {
+    margin-bottom: 24px;
+  }
+
+  .hero__wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .hero__bg {
+    background-image: url(../../../../assets/images/park/background/bg-desktop.png);
+    width: 766px;
+    padding: 60px 40px;
+  }
+
+  .hero__right {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero__link:not(:last-child) {
+    margin-bottom: 12px;
+  }
+
+  .hero__text {
+    width: 710px;
+    max-width: inherit;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero__container {
+    max-width: 1440px;
+  }
+}

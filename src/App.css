@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Inter Tight";
+  src: url(../src/assets/fonts/InterTight-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(../src/assets/fonts/Inter-VariableFont_slnt_wght.ttf);
+}
+
+@font-face {
+  font-family: "Dewi";
+  font-weight: 700;
+  src: url(../src/assets/fonts/RFDewiExtended-Bold.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-style: normal;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+}
+
+body.open {
+  overflow-y: hidden;
+  overflow: hidden;
+}
+
+input {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.App {
+  overflow: hidden;
+}
+
+#root {
+  width: auto;
+  overflow: hidden;
+}

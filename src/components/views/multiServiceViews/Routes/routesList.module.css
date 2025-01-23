@@ -1,0 +1,50 @@
+.routes__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.routes__item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.routes__item:last-child {
+  margin-bottom: 0px;
+}
+
+.routes__title {
+  font-family: "Dewi";
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  color: #121c46;
+  font-size: 24px;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+
+.routes__descr:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.routes__descr {
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  width: 261px;
+}
+
+.routes__descr {
+  color: #121c46;
+}
+
+@media screen and (min-width: 768px) {
+  .routes__descr {
+    width: 670px;
+  }
+
+  .routes__item {
+    margin-bottom: 32px;
+  }
+}

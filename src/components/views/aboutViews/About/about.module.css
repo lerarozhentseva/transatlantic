@@ -1,0 +1,232 @@
+.about {
+  background-color: #ffffff;
+}
+
+.about__container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 48px 20px 48px 20px;
+  max-width: 320px;
+}
+
+.about__left {
+  margin-left: 20px;
+  width: 220px;
+}
+
+.about__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.about__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.about__text {
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #121c46;
+}
+
+.about__right {
+  margin-bottom: 48px;
+}
+
+.about__text:first-child,
+.about__text:nth-child(2) {
+  margin-bottom: 12px;
+}
+
+.whoAreWe {
+  background-color: #ffffff;
+}
+
+.whoAreWe__container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 48px 20px 48px 20px;
+  max-width: 320px;
+}
+
+.whoAreWe__title,
+.whoAreWe__descr {
+  font-family: "Dewi";
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  color: #18bbfe;
+}
+
+.whoAreWe__title {
+  font-size: 30px;
+  line-height: 1;
+  margin-bottom: 24px;
+}
+
+.whoAreWe__container,
+.whoAreWe__list,
+.whoAreWe__cards {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.whoAreWe__list {
+  max-width: 100%;
+}
+
+.whoAreWe__item {
+  display: flex;
+  min-width: 280px;
+}
+
+.whoAreWe__item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.whoAreWe__text,
+.whoAreWe__dot,
+.whoAreWe__subdescr {
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #121c46;
+}
+
+.whoAreWe__text {
+  width: 275px;
+}
+
+.whoAreWe__descr {
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+@media screen and (min-width: 768px) {
+  .about__container {
+    padding: 48px 20px 48px 20px;
+    max-width: initial;
+    max-width: 768px;
+  }
+
+  .about__left {
+    margin-left: 20px;
+    width: 0px;
+  }
+
+  .about__right {
+    align-self: flex-end;
+    max-width: 100%;
+  }
+
+  .about__title {
+    font-size: 40px;
+  }
+
+  .about__text {
+    font-family: "Dewi";
+    font-weight: 700;
+    line-height: 1.16;
+    font-size: 24px;
+  }
+
+  .about__text:first-child,
+  .about__text:nth-child(2) {
+    margin-bottom: 24px;
+  }
+
+  .about__text:last-child {
+    width: 742px;
+  }
+
+  .whoAreWe__container {
+    padding: 48px 20px;
+    max-width: 768px;
+    flex-direction: column;
+  }
+
+  .whoAreWe__title {
+    font-size: 40px;
+    margin-bottom: 32px;
+  }
+
+  .whoAreWe__text {
+    width: 698px;
+  }
+
+  .whoAreWe__item:not(:last-child) {
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .about__container {
+    position: relative;
+    padding: 48px 58px 48px 58px;
+    max-width: 1180px;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .about__left {
+    margin-left: 20px;
+    width: 220px;
+  }
+
+  .about__right {
+    max-width: 650px;
+    margin-left: 188px;
+  }
+
+  .about__text:last-child {
+    width: 655px;
+  }
+
+  .whoAreWe {
+    position: relative;
+  }
+
+  .whoAreWe__container {
+    padding: 48px 58px;
+    max-width: 1180px;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: baseline;
+  }
+
+  .whoAreWe__right {
+    max-width: 650px;
+  }
+
+  .whoAreWe__list {
+    max-width: 650px;
+  }
+
+  .whoAreWe__left {
+    position: absolute;
+    top: 36px;
+    left: 58px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about__container {
+    max-width: 1440px;
+  }
+
+  .about__right {
+    max-width: 650px;
+    margin-left: auto;
+  }
+
+  .whoAreWe__container {
+    max-width: 1440px;
+  }
+}

@@ -1,0 +1,129 @@
+.secondRules {
+  margin: 0 auto;
+  max-width: 320px;
+}
+
+.secondRules__containers {
+  padding: 48px 20px 0px 20px;
+}
+
+.secondRules__title {
+  font-family: "Dewi";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  color: #121c46;
+  margin-bottom: 24px;
+  width: 280px;
+  display: flex;
+}
+
+.secondRules__number {
+  display: inline-block;
+  width: 29px;
+  margin-right: 8px;
+}
+
+.secondRules__item,
+.secondSubRules__item {
+  display: flex;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #121c46;
+}
+
+.secondSubRules__item,
+.secondRules__item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.secondRules__link {
+  color: #18bbfe;
+  text-decoration: underline;
+}
+
+.secondRules__link:hover,
+.secondRules__link:active {
+  color: #008ac2;
+}
+
+.secondRules__text {
+  width: 237px;
+}
+
+.secondSubRules__text {
+  width: 232px;
+}
+
+.secondSubRules__textNumber {
+  display: inline-block;
+  width: 48px;
+}
+
+.secondRules__textNumber {
+  display: inline-block;
+  width: 43px;
+}
+
+@media screen and (min-width: 768px) {
+  .secondRules {
+    max-width: 768px;
+  }
+
+  .secondRules__containers {
+    padding: 48px 20px 0px 20px;
+  }
+
+  .secondRules__list {
+    margin-left: 48px;
+  }
+
+  .secondSubRules__list {
+    margin-left: 42px;
+  }
+
+  .secondRules__title {
+    font-size: 40px;
+    margin-bottom: 32px;
+    width: 680px;
+  }
+
+  .secondRules__text {
+    width: 637px;
+  }
+
+  .secondSubRules__text {
+    width: 590px;
+  }
+
+  .secondRules__number {
+    width: 48px;
+  }
+
+  .secondSubRules__textNumber {
+    width: 40px;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .secondRules {
+    max-width: 1180px;
+  }
+
+  .secondRules__containers {
+    padding: 48px 58px 0px 58px;
+  }
+
+  .secondRules__text {
+    width: 673px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .secondRules {
+    max-width: 1440px;
+  }
+}

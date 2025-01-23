@@ -1,0 +1,78 @@
+.about {
+  background-color: #ffffff;
+}
+
+.about__container {
+  display: flex;
+  flex-direction: column;
+  padding: 48px 20px;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.about__title {
+  font-family: "Dewi";
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  font-size: 30px;
+  line-height: 1;
+  color: #18bbfe;
+  width: 293px;
+  margin-bottom: 24px;
+}
+
+.about__descr,
+.about__subDescr {
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #121c46;
+  margin-bottom: 20px;
+}
+
+.about__subDescr {
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .about__container {
+    padding: 48px 20px;
+    max-width: 768px;
+  }
+
+  .about__title {
+    font-size: 40px;
+    width: auto;
+    margin-bottom: 32px;
+  }
+
+  .about__subDescr {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .about__container {
+    padding: 48px 20px;
+    max-width: 1180px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+  }
+
+  .about__left {
+    width: 445px;
+  }
+
+  .about__right {
+    width: 650px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about__container {
+    padding: 48px 58px;
+    max-width: 1440px;
+  }
+}

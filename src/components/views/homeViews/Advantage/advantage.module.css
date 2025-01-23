@@ -1,0 +1,333 @@
+.advantage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 48px 20px;
+  z-index: 7;
+  position: relative;
+  background-color: #08113f;
+  height: 813px;
+}
+
+.advantage__container__static {
+  margin: 0 auto;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.advantage__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.advantage__title {
+  display: inline-block;
+  font-family: "Dewi";
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+}
+
+.advantage__title {
+  width: 260px;
+  font-size: 30px;
+  line-height: 1;
+  margin-bottom: 24px;
+}
+
+.advantage__subtitle {
+  display: inline-block;
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 32px;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+  width: 240px;
+}
+
+.figures {
+  position: relative;
+  height: 529px;
+  width: 280px;
+}
+
+.figures__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.figures__item--squares {
+  background-image: url("../../../../assets/images/mobile/figures/squares.png");
+  width: 130px;
+  height: 40px;
+  right: 0px;
+  top: 125px;
+}
+
+.figures__item--polygon {
+  background-image: url("../../../../assets/images/mobile/figures/polygon.png");
+  width: 130px;
+  height: 120px;
+  top: 186px;
+  right: 0px;
+  background-size: contain;
+}
+
+.figures__item--ellipse {
+  background-image: url("../../../../assets/images/mobile/figures/ellipse.png");
+  width: 130px;
+  height: 180px;
+  right: 150px;
+  top: 125px;
+}
+
+.figures__item--oval {
+  background-image: url("../../../../assets/images/mobile/figures/oval.png");
+  width: 130px;
+  height: 60px;
+  right: 150px;
+  top: 320px;
+}
+
+.figures__item--rectangle {
+  background-image: url("../../../../assets/images/mobile/figures/rectangle.png");
+  width: 130px;
+  height: 212px;
+  bottom: 0px;
+  right: 0px;
+}
+
+.figures__item--ringles {
+  background-image: url("../../../../assets/images/mobile/figures/ringles.png");
+  top: 0;
+  right: 0px;
+  width: 62px;
+  height: 109px;
+}
+
+.figures__item--union {
+  background-image: url("../../../../assets/images/mobile/figures/union.png");
+  width: 130px;
+  height: 132px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.figures__item--subtract {
+  background-image: url("../../../../assets/images/mobile/figures/subtract.png");
+  width: 203px;
+  height: 109px;
+  top: 0px;
+  left: 0;
+}
+
+.figures__text {
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  color: #82b5e8;
+  position: absolute;
+  display: inline-block;
+}
+
+.figures__text--polygon {
+  top: 37px;
+  right: 33%;
+  width: 50px;
+  text-align: end;
+}
+
+.figures__text--ellipse {
+  bottom: 39px;
+  width: 50px;
+}
+
+.figures__text--rectangle {
+  width: 84px;
+  text-align: center;
+}
+
+.figures__text--oval {
+}
+
+.figures__textSecond--union {
+  display: inline-block;
+  top: 21px;
+}
+
+.figures__textFirst--union {
+  bottom: 13px;
+  display: inline-block;
+  width: 97px;
+}
+
+.figures__text--subtract {
+  bottom: 50px;
+  left: 35%;
+}
+
+.advantage__container {
+  width: 100%;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .advantage {
+    position: relative;
+    z-index: 9;
+    padding: 56px 20px;
+  }
+
+  .advantage__container__static {
+    max-width: 768px;
+  }
+
+  .advantage__title {
+    font-size: 56px;
+    width: 579px;
+  }
+
+  .advantage__subtitle {
+    font-size: 24px;
+    margin-bottom: 54px;
+    width: 630px;
+  }
+
+  .figures {
+    width: 704px;
+    height: 457px;
+  }
+
+  .figures__item--oval {
+    background-image: url("../../../../assets/images/tablet/figures/oval.png");
+    width: 180px;
+    height: 60px;
+    right: 250px;
+    top: 218px;
+  }
+
+  .figures__item--polygon {
+    background-image: url("../../../../assets/images/tablet/figures/polygon.png");
+    width: 168px;
+    height: 146px;
+    top: 0;
+    right: 30px;
+  }
+
+  .figures__item--ellipse {
+    background-image: url("../../../../assets/images/tablet/figures/ellipse.png");
+    width: 147px;
+    height: 209px;
+    right: 270px;
+    top: 0px;
+    background-size: contain;
+  }
+
+  .figures__item--rectangle {
+    background-image: url("../../../../assets/images/tablet/figures/rectangle.png");
+    width: 142px;
+    height: 213px;
+    bottom: 0px;
+    right: 44px;
+  }
+
+  .figures__item--union {
+    background-image: url("../../../../assets/images/tablet/figures/union.png");
+    width: 156px;
+    height: 156px;
+    bottom: 0;
+    left: 283px;
+  }
+
+  .figures__item--subtract {
+    background-image: url("../../../../assets/images/desktop/figures/subtract.png");
+    width: 182px;
+    height: 341px;
+    bottom: 0;
+    left: 24px;
+    top: auto;
+    background-size: contain;
+  }
+
+  .figures__item--ringles {
+    background-image: url("../../../../assets/images/tablet/figures/ringles.png");
+    top: 0;
+    left: 24px;
+    width: 180px;
+    height: 100px;
+  }
+
+  .figures__item--squares {
+    background-image: url("../../../../assets/images/desktop/figures/squares.png");
+    width: 166px;
+    height: 66px;
+    right: 32px;
+    top: 35%;
+  }
+
+  .figures__text--polygon {
+    top: 68px;
+    right: 28px;
+    width: auto;
+  }
+
+  .figures__text--ellipse {
+    bottom: 63px;
+    width: 82px;
+    width: auto;
+  }
+
+  .figures__text--rectangle {
+    bottom: 48%;
+    top: auto;
+  }
+
+  .figures__textFirst--union {
+    bottom: 23px;
+    width: 121px;
+  }
+
+  .figures__textSecond--union {
+    top: 23px;
+    width: 121px;
+  }
+
+  .figures__text--subtract {
+    bottom: 23px;
+    left: 28%;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .advantage {
+    background: none;
+    background-color: #18bbfe;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+  }
+
+  .advantage__container {
+    width: 100%;
+    display: block;
+  }
+  .advantage__container__static {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .advantage__container {
+    max-width: 1440px;
+  }
+}

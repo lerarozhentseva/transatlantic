@@ -1,0 +1,120 @@
+.thirdRules {
+  margin: 0 auto;
+  max-width: 320px;
+}
+
+.thirdRules__containers {
+  padding: 48px 20px 0px 20px;
+}
+
+.thirdRules__title {
+  font-family: "Dewi";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  color: #121c46;
+  margin-bottom: 24px;
+  width: 280px;
+  display: flex;
+}
+
+.thirdRules__number {
+  display: inline-block;
+  width: 29px;
+  margin-right: 8px;
+}
+
+.thirdRules__item,
+.thirdSubRules__item {
+  display: flex;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #121c46;
+}
+
+.thirdSubRules__item:not(:last-child),
+.thirdRules__item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.thirdRules__text {
+  width: 237px;
+}
+
+.thirdSubRules__text {
+  width: 232px;
+}
+
+.thirdSubRules__textNumber {
+  display: inline-block;
+  width: 48px;
+}
+
+.thirdRules__textNumber {
+  display: inline-block;
+  width: 43px;
+}
+
+@media screen and (min-width: 768px) {
+  .thirdRules {
+    max-width: 768px;
+  }
+
+  .thirdRules__containers {
+    padding: 48px 20px 0px 20px;
+  }
+
+  .thirdRules__list {
+    margin-left: 48px;
+  }
+
+  .thirdSubRules__list {
+    margin-left: 42px;
+  }
+
+  .thirdRules__title {
+    font-size: 40px;
+    margin-bottom: 32px;
+    width: 720px;
+  }
+
+  .thirdRules__text {
+    width: 637px;
+  }
+
+  .thirdSubRules__text {
+    width: 626px;
+  }
+
+  .thirdRules__number {
+    width: 48px;
+  }
+
+  .thirdSubRules__textNumber {
+    width: 40px;
+    margin-right: 8px;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .thirdRules {
+    max-width: 1180px;
+  }
+
+  .thirdRules__containers {
+    padding: 48px 58px 0px 58px;
+  }
+
+  .thirdRules__text {
+    width: 673px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .thirdRules {
+    max-width: 1440px;
+  }
+}

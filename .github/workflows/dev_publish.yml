@@ -1,0 +1,32 @@
+name: Publish to Dev
+
+on:
+  push:
+    branches: [dev]
+
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest    
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2.3.1
+
+      - name: Install dependencies 🔧
+        run: npm install
+
+      # Линтинг закомментирован, можно оставить так или использовать команду ниже:
+      # - name: Lint code (optional) 🧹
+      #   run: npm run lint:js || true
+
+      - name: Build project 🏗️
+        env:
+          CI: false
+        run: npm run build
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.0
+        with:
+          branch: gh-pages
+          folder: build

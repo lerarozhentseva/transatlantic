@@ -1,0 +1,208 @@
+.hero {
+  background-color: #ffffff;
+}
+
+.hero__container {
+  margin: 0 auto;
+  max-width: 320px;
+  padding: 48px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hero__title {
+  font-family: "Dewi";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  color: #121c46;
+  margin-bottom: 32px;
+}
+
+.hero__wrapper {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: calc(20px * -1);
+  margin-left: calc(20px * -1);
+}
+
+.hero__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  padding: 0 30px 16px 16px;
+  width: 280px;
+  height: 172px;
+  background: #edf6ff;
+  border-radius: 16px;
+  overflow: auto;
+}
+
+.hero__item:not(:last-child) {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.hero__heading {
+  font-family: "Dewi";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: -0.04em;
+  color: #121c46;
+  width: 286px;
+}
+
+.hero__item:nth-child(2) .hero__heading {
+  width: 280px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero__info {
+  display: flex;
+  position: relative;
+  z-index: 10;
+}
+
+.hero__arrow {
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 3px;
+}
+
+.hero__img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 172px;
+  transition-duration: 200ms;
+}
+
+.hero__btn {
+  font-family: "Dewi";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  color: #18bbfe;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: underline;
+  align-self: center;
+}
+
+.hidden {
+  display: none;
+}
+
+/* HOVER ON CART */
+
+.hero__img--blue {
+  display: none;
+}
+
+.hero__item:hover {
+  background-color: #18bbfe;
+  transition-duration: 200ms;
+}
+
+.hero__item:hover .hero__heading {
+  color: #ffffff;
+}
+
+.hero__item:hover .hero__img--blue {
+  display: block;
+}
+
+.hero__item:hover .hero__img--gray {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .hero__container {
+    max-width: 768px;
+  }
+
+  .hero__title {
+    font-size: 40px;
+    margin-bottom: 32px;
+  }
+
+  .hero__item {
+    width: 354px;
+    height: 248px;
+  }
+
+  .hero__item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .hero__item:nth-child(3),
+  .hero__item:nth-child(4) {
+    margin-bottom: 0;
+  }
+
+  .hero__item {
+    margin-right: 20px;
+    padding: 0 30px 22px 18px;
+  }
+
+  .hero__img {
+    height: 248px;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .hero__container {
+    padding: 0px 58px 48px 58px;
+    max-width: 1180px;
+  }
+
+  .hero__list {
+    justify-content: flex-start;
+  }
+
+  .hero__heading {
+    font-size: 24px;
+  }
+
+  .hero__info {
+    width: 286px;
+  }
+
+  .hero__item {
+    padding: 0 30px 20px 20px;
+  }
+
+  .hero__item:nth-child(2) .hero__heading {
+    width: 280px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero__item {
+    width: 428px;
+  }
+
+  .hero__container {
+    max-width: 1440px;
+  }
+
+  .hero__list {
+    max-width: 1360px;
+    justify-content: flex-start;
+  }
+}

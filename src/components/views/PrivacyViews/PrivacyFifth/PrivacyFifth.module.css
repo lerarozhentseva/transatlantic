@@ -1,0 +1,120 @@
+.fifthRules {
+  margin: 0 auto;
+  max-width: 320px;
+}
+
+.fifthRules__containers {
+  padding: 48px 20px 0px 20px;
+}
+
+.fifthRules__title {
+  font-family: "Dewi";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  color: #121c46;
+  margin-bottom: 24px;
+  width: 280px;
+  display: flex;
+}
+
+.fifthRules__number {
+  display: inline-block;
+  width: 29px;
+  margin-right: 8px;
+}
+
+.fifthRules__item,
+.fifthSubRules__item {
+  display: flex;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #121c46;
+}
+
+.fifthSubRules__item,
+.fifthRules__item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.fifthRules__text {
+  width: 237px;
+}
+
+.fifthSubRules__text {
+  width: 232px;
+}
+
+.fifthSubRules__textNumber {
+  display: inline-block;
+  width: 48px;
+}
+
+.fifthRules__textNumber {
+  display: inline-block;
+  width: 43px;
+}
+
+@media screen and (min-width: 768px) {
+  .fifthRules {
+    max-width: 768px;
+  }
+
+  .fifthRules__containers {
+    padding: 48px 20px 0px 20px;
+  }
+
+  .fifthRules__list {
+    margin-left: 48px;
+  }
+
+  .fifthSubRules__list {
+    margin-left: 42px;
+  }
+
+  .fifthRules__title {
+    font-size: 40px;
+    margin-bottom: 32px;
+    width: 720px;
+  }
+
+  .fifthRules__text {
+    width: 637px;
+  }
+
+  .fifthSubRules__text {
+    width: 626px;
+  }
+
+  .fifthRules__number {
+    width: 48px;
+  }
+
+  .fifthSubRules__textNumber {
+    width: 40px;
+    margin-right: 8px;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .fifthRules {
+    max-width: 1180px;
+  }
+
+  .fifthRules__containers {
+    padding: 48px 58px 0px 58px;
+  }
+
+  .fifthRules__text {
+    width: 673px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .fifthRules {
+    max-width: 1440px;
+  }
+}
