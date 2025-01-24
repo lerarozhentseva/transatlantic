@@ -54,7 +54,7 @@ const Hero = () => {
             />
             <Office
               id="msk"
-              tel=" +7 495 455-45-92"
+              tel=" +7 (495) 445-45-92"
               mail=" office@transatlantic.pro"
               address="129343, г. Москва, пр-д Серебрякова, 14, строение 10, офис 10204"
               type="msk"

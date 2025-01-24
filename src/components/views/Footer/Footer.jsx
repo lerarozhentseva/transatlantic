@@ -58,7 +58,7 @@ const Footer = () => {
           />
           <Contacts
             address="Москва"
-            tel="+7 (495) 455-45-92"
+            tel="+7 (495) 445-45-92"
             mail="msk.office@transatlantic.pro"
             type="footer"
           />
